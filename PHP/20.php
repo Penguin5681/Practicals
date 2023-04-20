@@ -1,7 +1,7 @@
 <!-- 20. Write a PHP class that sorts an ordered integer array with the help of sort() function -->
 
 <?php
-    class sortArray {
+    class sortArray {   
         public function toSort($arr) {
             sort($arr);
             foreach ($arr as $x)

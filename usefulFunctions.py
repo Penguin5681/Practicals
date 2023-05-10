@@ -89,5 +89,17 @@ def countHowMany(St):
 def removeVowel(St):
     vowels = "AEIOUaeiou"
     return "".join([ch for ch in St if ch not in vowels]) 
-    
-print(removeVowel("AEIoX"))
+
+# arbitrary keyword argument
+
+def keywordArgs(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+        
+# Lambda Function
+
+sum = lambda x, y, z : print(x + y + z)
+
+numbers = [1, 2, 3, 4, 5, 6]
+sqNum = list(map(lambda x : x ** 2, numbers))
+print(sqNum)

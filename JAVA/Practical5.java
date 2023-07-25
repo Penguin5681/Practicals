@@ -5,7 +5,7 @@ public class Practical5 {
         // Area of a circle 
         Scanner cin = new Scanner(System.in);
         final double PI = 3.14; // Constant Value (similar to const int pi)
-        double radius = cin.nextInt();
+        double radius = cin.nextDouble();
 
         System.out.println("Area = " + PI * radius * radius);
     }

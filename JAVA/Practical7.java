@@ -2,11 +2,11 @@ public class Practical7 {
     public static void main(String[] args) {
         Patterns p1 = new Patterns();
         p1.pattern_1(5);
-        // Pattern p2, p3 are totally useless (makes your brain go brr)
     }
 }
 
 class Patterns {
+    // Pattern p2, p3 makes your brain explode
     public void pattern_1(int n) {
         for (int i = 0; i < n; ++i) {
             for (int j = i; j < n; ++j) {

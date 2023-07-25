@@ -1,7 +1,8 @@
 public class Practical7 {
     public static void main(String[] args) {
         Patterns p1 = new Patterns();
-        // Pattern p2, p3 aur totally useless (makes your brain go brr)
+        p1.pattern_1(5);
+        // Pattern p2, p3 are totally useless (makes your brain go brr)
     }
 }
 
@@ -14,17 +15,20 @@ class Patterns {
                 System.out.println();
         }
     }
+
     // Pattern 1: 
     // *  *  *  *  * 
     // *  *  *  * 
     // *  *  * 
     // *  * 
     // *
+
     public void pattern_2(int n) {
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
+
             int white_space = (2 * n) - (2 * i);
 
             for (int k = 1; k <= white_space; k++) 
@@ -39,6 +43,7 @@ class Patterns {
                 for (int j = 1; j <= i; j++) {
                     System.out.print("*");
                 }
+
                 int white_space = (2 * n) - (2 * i);
 
                 for (int k = 1; k <= white_space; k++) 
@@ -49,6 +54,7 @@ class Patterns {
                     System.out.print("\n");
             }
         }
+
         // Pattern 2:
         // *        *
         // **      **
@@ -87,6 +93,7 @@ class Patterns {
                 System.out.print(" * ");
                 System.out.print("\n");
         }
+
         // Pattern 3
         // *          * 
         // *  *        *  * 

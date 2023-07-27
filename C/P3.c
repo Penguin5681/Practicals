@@ -25,6 +25,35 @@ void pop(stack* St) {
     St->arr[St->top--];
 }
 
+int getSize(stack* St) {
+    return St->top + 1;
+}
+
+bool deleteElement(stack* St, int value) {
+    int index = -1;
+    // Find the index of the element to be deleted
+    for (int i = 0; i <= St->top; i++) {
+        if (St->arr[i] == value) {
+            index = i;
+            break;
+        }
+    }
+
+    if (index == -1) {
+        // Element not found in the stack
+        return false;
+    }
+
+    // Shift elements to the left to delete the element
+    for (int i = index; i < St->top; i++) {
+        St->arr[i] = St->arr[i + 1];
+    }
+
+    St->top--; // Decrement the top to indicate the removal of an element
+    return true;
+}
+
+
 int peek(stack* St) {
     if (St->top == -1) {printf("Stack Underflow");}
     return St->arr[St->top];

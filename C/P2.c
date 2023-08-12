@@ -88,5 +88,9 @@ int main(void) {
     printf("%d", addArray(A, size));
     printf("\n%d", largest(A, size));
     printf("\n%d", smallest(A, size));
+    if (searchSomething(A, 7, size)
+        printf("Value Found");
+    else 
+        printf("Value Doesn't Exists");
 
 }

@@ -3,6 +3,8 @@
     array. a) PUSH b) POP c) PEEP d) CHANGE
 */
 
+// // Created on 19 July 2023
+
 #include <stdio.h>
 #include <stdbool.h>
 #define stackSize 50

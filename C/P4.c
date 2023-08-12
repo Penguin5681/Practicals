@@ -7,6 +7,8 @@
     Postfix Notation : 4 3 1 / - 4 6 / 1 - * <operand> <operand> <operator> (Reverse Polish Notation)
 */
 
+// Created on 19 July 2023
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

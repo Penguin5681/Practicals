@@ -4,6 +4,8 @@
     given array. f) Find smallest element from given array.
 */
 
+// Created on 19 July 2023
+
 #include <stdio.h>
 
 // a) Search element in array

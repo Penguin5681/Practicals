@@ -11,6 +11,8 @@
         i) Search given element in linked list
 */
 
+// Created on 19 July 2023
+
 #include <stdio.h>
 #include <stdlib.h>
 

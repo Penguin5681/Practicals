@@ -4,6 +4,8 @@
         b) Remove an element
 */
 
+// Created on 19 July 2023
+
 #include <stdio.h>
 #include <stdbool.h>
 

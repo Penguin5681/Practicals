@@ -9,4 +9,4 @@ echo "Enter time period (in years): "
 read n
 
 result=$((p*(1+r/n))) 
-echo "Compund Interest = $result"
+echo "Compound Interest = $result"

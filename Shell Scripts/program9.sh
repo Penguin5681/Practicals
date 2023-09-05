@@ -1,5 +1,3 @@
-
-
 echo "Simple Calculator"
 echo "Enter first number:"
 read num1
@@ -25,7 +23,7 @@ case $choice in
         result=$((num1 * num2))
         ;;
     4)
-        result=$(awk "BEGIN {printf \"%.2f\", $num1 / $num2}")
+        result=$((num1/num2))
         ;;
     *)
         echo "Invalid choice"

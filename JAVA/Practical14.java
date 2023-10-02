@@ -1,9 +1,13 @@
 public class Practical14 {
     public static void main(String[] args) {
-        int idx = 1;
+        Scanner cin = new Scanner(System.in);
+        System.out.println("How many numbers you want to print?");
+        int n = cin.nextInt();
+
+        int temp = 1;
         do {
-            System.out.println(idx++);
+            System.out.println(temp++);
         }
-            while (idx != 11);
+            while (temp != n + 1);
     }
 }

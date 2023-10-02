@@ -1,7 +1,15 @@
+import java.util.Scanner;
+
 public class Practical7 {
     public static void main(String[] args) {
-        Patterns p1 = new Patterns();
-        p1.pattern_1(5);
+        Scanner cin = new Scanner(System.in);
+        int n = cin.nextInt();
+        for (int i = 0; i < n; ++i) {
+            for (int j = i; j < n; ++j) {
+                System.out.print(" * ");
+            }
+                System.out.println();
+        }
     }
 }
 

@@ -55,6 +55,14 @@ bool deleteElement(stack* St, int value) {
     return true;
 }
 
+void update_stack(stack* st, int source, int destination) {
+    int idx = st->top;
+    while (idx >= 0) {
+        if (st->array[idx] == source)
+            st->array[idx] = destination;
+        idx--;
+    } 
+}
 
 int peek(stack* St) {
     if (St->top == -1) {printf("Stack Underflow");}

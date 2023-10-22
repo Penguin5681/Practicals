@@ -9,35 +9,54 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#define MAX_QUEUE_SIZE 20
+#define MAX_QUEUE_SIZE 1001
+typedef struct {
+    int data[MAX_QUEUE_SIZE];
+    int front;
+    int back;
+} queue;
 
-struct Queue {
-    int arr[MAX_QUEUE_SIZE];
-    int front, back;
-};
-
-void initQueue(struct Queue* q) {
-    q->front = -1;
-    q->back = -1;
+void initialize_queue(queue *q) {
+    q->front = q->back = -1;
 }
 
-void push(struct Queue* q, int x) {
-    if (q->back == MAX_QUEUE_SIZE - 1) {
-        printf("Queue Overflow\n");
-        return;
-    }
-    q->back++;
-    q->arr[q->back] = x;
+bool is_full(queue *q) {
+    return q->back == MAX_QUEUE_SIZE - 1;
+}
 
-    if (q->front == -1) {
+bool is_empty(queue *q) {
+    return (q->front == -1 || q->front > q->back);
+}
+
+void enqueue(queue *q, int val) {
+    if (is_full(q))
+        return;
+
+    q->data[++q->back] = val;
+    if (q->front == -1)
         q->front++;
+}
+
+void dequeue(queue *q) {
+    if (is_empty(q))
+        return;
+    q->front++;
+}
+
+int peek(queue *q) {
+    return q->data[q->front];
+}
+
+void display_queue(queue *q) {
+    while (!is_empty(q)) {
+        printf("%d ", peek(q));
+        dequeue(q);
     }
 }
 
-void pop(struct Queue* q) {
-    if (q->front == -1 || q->front > q->back) {
-        printf("Queue Empty\n");
-        return;
-    }
-    q->front++;
+int main() {
+    queue q;
+    initialize_queue(&q);
+    for (int i = 1; i <= 10; enqueue(&q, i++));
+    display_queue(&q);
 }

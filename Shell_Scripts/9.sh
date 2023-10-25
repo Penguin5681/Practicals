@@ -24,7 +24,7 @@ while true; do
         echo "Enter publisher:"
         read publisher
 
-        echo "$number|$title|$author|$edition|$publisher" >> record_data.txt
+        echo "$number | $title | $author | $edition | $publisher" >> record_data.txt
         echo "Data inserted successfully"
         ;;
 
@@ -63,7 +63,7 @@ while true; do
         echo "Enter publisher:"
         read publisher
 
-        sed -i "s/^$number|.*$/$number|$title|$author|$edition|$publisher/" record_data.txt
+        sed -i "s/^$number|.*$/$number | $title | $author | $edition | $publisher/" record_data.txt
         echo "Data updated successfully"
         ;;
 

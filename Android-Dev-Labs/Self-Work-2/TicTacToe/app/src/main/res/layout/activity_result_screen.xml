@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultScreen"
+    android:background="@color/turquoise"
+    >
+
+    <ImageView
+        android:layout_width="413dp"
+        android:layout_height="413dp"
+        android:src="@drawable/you_win"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0"
+        />
+    <Button
+        android:id="@+id/play_again_btn"
+        android:layout_width="172dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/border_style_1"
+        android:text="@string/play_again"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/exit_btn"
+        android:layout_width="172dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/exit"
+        android:background="@drawable/border_style_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/hardcore"
+        android:layout_width="172dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/border_style_1"
+        android:text="@string/try_out_hard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

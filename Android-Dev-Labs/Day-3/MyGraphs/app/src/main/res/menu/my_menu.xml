@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/login" android:id="@+id/login" android:icon="@drawable/login_icon"/>
+
+    <item android:title="@string/profile" android:id="@+id/profile"
+        android:icon="@drawable/profile_icon"/>
+
+    <item android:title="@string/forget_password" android:id="@+id/forget_password"
+        android:icon="@drawable/forget_password_icon"/>
+
+    <item android:title="@string/dashboard" android:id="@+id/dashboard"
+        android:icon="@drawable/dashboard_icon"/>
+</menu>

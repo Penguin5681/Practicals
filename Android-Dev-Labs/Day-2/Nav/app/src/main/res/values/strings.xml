@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nav</string>
+    <string name="home">Home</string>
+    <string name="profile">profile</string>
+    <string name="more">More</string>
+    <string name="bookmarks">Bookmarks</string>
+</resources>

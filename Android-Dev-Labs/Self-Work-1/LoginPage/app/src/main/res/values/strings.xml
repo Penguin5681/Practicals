@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LoginPage</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="lucky">I\'m feeling lucky</string>
+    <string name="login_success">Login Successful</string>
+    <string name="logout">Logout</string>
+    <string name="logout_and_exit">Logout and Exit</string>
+</resources>

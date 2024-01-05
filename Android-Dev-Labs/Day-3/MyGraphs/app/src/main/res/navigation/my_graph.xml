@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_graph"
+    app:startDestination="@id/login2">
+
+    <fragment
+        android:id="@+id/login2"
+        android:name="com.example.mygraphs.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login2_to_forgetPassword"
+            app:destination="@id/forgetPassword" />
+        <action
+            android:id="@+id/action_login2_to_dashboard2"
+            app:destination="@id/dashboard2" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgetPassword"
+        android:name="com.example.mygraphs.ForgetPassword"
+        android:label="fragment_forget_password"
+        tools:layout="@layout/fragment_forget_password" />
+    <fragment
+        android:id="@+id/dashboard2"
+        android:name="com.example.mygraphs.Dashboard"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboard2_to_profile2"
+            app:destination="@id/profile2" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile2"
+        android:name="com.example.mygraphs.Profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

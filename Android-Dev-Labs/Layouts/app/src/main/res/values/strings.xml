@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="button_3">Button 3</string>
+    <string name="next">NEXT</string>
+    <string name="enter_your_name">Enter Your Name</string>
+</resources>

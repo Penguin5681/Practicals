@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="tic_tac_toe_grid">Tic Tac Toe Grid</string>
+    <string name="epic_tic_tac_toe">Epic Tic Tac Toe</string>
+    <string name="play_again">Play Again</string>
+    <string name="exit">Exit</string>
+    <string name="O">O</string>
+    <string name="X">X</string>
+    <string name="choose">Choose a Side</string>
+    <string name="difficulty">Choose Difficulty</string>
+    <string name="skill_based">Skill Based</string>
+    <string name="hardcore">Hardcore</string>
+    <string name="hate_this"> You will hate this game mode ;) </string>
+    <string name="try_out_hard">Try Hardcore</string>
+    <string name="reset">Reset Game</string>
+    <string name="welcome_to_hard"> Hardcore Mode</string>
+    <string name="give_up">Give Up</string>
+    <string name="goto_main">Go To Main Menu</string>
+</resources>

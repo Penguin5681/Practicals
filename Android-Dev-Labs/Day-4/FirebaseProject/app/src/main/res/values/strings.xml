@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirebaseProject</string>
+    <string name="enter_email_id">ENter email id</string>
+    <string name="enter_the_password">Enter the Password</string>
+</resources>

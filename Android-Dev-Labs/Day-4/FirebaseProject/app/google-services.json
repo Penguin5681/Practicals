@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "44264731489",
+    "project_id": "pranavpersonal-32da3",
+    "storage_bucket": "pranavpersonal-32da3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44264731489:android:dac156b713cda3f15f0b20",
+        "android_client_info": {
+          "package_name": "com.example.firebaseproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRhQMOM4F1czi9XDM_GXgqbygbGDgRJoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

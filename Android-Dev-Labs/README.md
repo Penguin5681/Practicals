@@ -1,9 +1,9 @@
 ## Android Studio Hedgehog 2023.1.1
 ### [Lab 1](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-1) (19/12/2023 10:49:31): Toast, Button, EditView, Listeners 
 ### [Lab 2](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-2) (21/12/2023 11:15:46): Navigation Bar Controls and in-built icons
-### [Lab 3](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-3) : Working with Graphs and Fragment Control Views
-### [Lab 4](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-4) (08/01/2023 14:02:36) : Firebase Integration with Android Studio 
-### [Lab 5](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-5) (16/01/2023 08:42:12) : Linear Layout - Cheesboard
+### [Lab 3](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-3) (03/01/2024 08:44:19): Working with Graphs and Fragment Control Views
+### [Lab 4](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-4) (08/01/2024 14:02:36): Firebase Integration with Android Studio 
+### [Lab 5](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-5) (16/01/2024 08:42:12): Linear Layout - Cheesboard
 
 <hr/>
 

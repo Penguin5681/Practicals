@@ -1,8 +1,8 @@
 ## Android Studio Hedgehog 2023.1.1
-### [Day 1](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-1) (19/12/2023 10:49:31): Toast, Button, EditView, Listeners 
-### [Day 2](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-2) (21/12/2023 11:15:46): Navigation Bar Controls and in-built icons
-### [Day 3](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-3) : Working with Graphs and Fragment Control Views
-### [Day 4](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-4) (08/01/2023 14:02:36) : Firebase Integration with Android Studio 
+### [Lab 1](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-1) (19/12/2023 10:49:31): Toast, Button, EditView, Listeners 
+### [Lab 2](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-2) (21/12/2023 11:15:46): Navigation Bar Controls and in-built icons
+### [Lab 3](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-3) : Working with Graphs and Fragment Control Views
+### [Lab 4](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-4) (08/01/2023 14:02:36) : Firebase Integration with Android Studio 
 
 <hr/>
 

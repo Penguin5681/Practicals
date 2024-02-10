@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AssignedProject!</string>
+    <string name="email">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="welcome_to_dashboard">Welcome to dashboard</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="nothing_else_to_do_here_expect_signing_out">Nothing else to do here, expect signing out ;)</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
+    <string name="now_what">Now What?</string>
+</resources>

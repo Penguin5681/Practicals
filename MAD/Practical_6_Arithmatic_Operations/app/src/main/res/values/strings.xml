@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Practical_6_Arithmatic_Operations</string>
+    <string name="enter_number1">Enter Number1</string>
+    <string name="enter_number2">Enter Number2</string>
+    <string name="plus">+</string>
+    <string name="result_here">Result Here</string>
+    <string name="minus">-</string>
+    <string name="divide">/</string>
+    <string name="Multiply">*</string>
+</resources>

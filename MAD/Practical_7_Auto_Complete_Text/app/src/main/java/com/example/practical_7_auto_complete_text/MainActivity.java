@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         AutoCompleteTextView autoCompleteTextView = findViewById(R.id.auto_complete_text_view);
-        String[] myFriends = new String[] {"Swayam", "Vishwa", "Tanu"};
+        String[] myFriends = new String[] {"Swayam", "Sunny", "Sahil", "Vishal", "Varun", "Vishwa", "Tanu"};
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, com.google.android.material.R.layout.support_simple_spinner_dropdown_item, myFriends);
         autoCompleteTextView.setThreshold(1);

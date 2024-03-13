@@ -8,3 +8,16 @@
 ### [Lab 7](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-7) (12/03/2024 08:50:45): Creating Gradient
 
 <hr/>
+
+## Instructions:
+
+### Every Day-n folder has a subfolder, just paste the subfolder in "C:\Users\user_name\AndroidStudioProjects" and open it in Android Studio
+
+## Reporting Issues
+
+If you come across any problems or have suggestions for improvements, please create an issue on GitHub. To report an issue:
+
+1. Go to the [Issues tab](https://github.com/Penguin5681/Practicals/issues) on the GitHub repository.
+2. Click on the "New Issue" button.
+3. Fill out the issue template with as much detail as possible.
+4. Click "Submit new issue."

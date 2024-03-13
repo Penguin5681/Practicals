@@ -5,5 +5,6 @@
 ### [Lab 4](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-4) (08/01/2024 14:02:36): Firebase Integration with Android Studio 
 ### [Lab 5](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-5) (16/01/2024 08:42:12): Linear Layout - Cheesboard
 ### [Lab 6](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-6) (29/01/2024 09:16:22): Recycler View
+### [Lab 7](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-7) (12/03/2024 08:50:45): Creating Gradient
 
 <hr/>

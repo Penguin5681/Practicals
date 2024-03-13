@@ -7,6 +7,3 @@
 ### [Lab 6](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Day-6) (29/01/2024 09:16:22): Recycler View
 
 <hr/>
-
-### [Self 1](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Self-Work-1) (20/12/2023 03:14:45): Login Page with Cats 
-### [Self 2](https://github.com/Penguin5681/Practicals/tree/main/Android-Dev-Labs/Self-Work-2) (24/12/2023 16:40:12): Epic Tic Tac Toe with Hardcore Mode (Unbeatable)

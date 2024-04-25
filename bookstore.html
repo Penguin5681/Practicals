@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="bookstore.css"/>
+</head>
+<body>
+    <div id="xml-container"></div>
+    
+    <script>
+        function loadXMLDoc(filename) {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 &&  this.status == 200) {
+                    displayXML(this);
+                }
+            };
+            xhttp.open("GET", filename, true);
+            xhttp.send();
+        }
+
+        function displayXML(xml) {
+            var xmlDoc = xml.responseXML;
+            var books = xmlDoc.getElementsByTagName("book");
+            var htmlStr = "";
+
+            for (let i = 0; i < books.length; i++) {
+                var title = books[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
+                var genre = books[i].getElementsByTagName("genre")[0].childNodes[0].nodeValue;
+
+                htmlStr += "<div class='books'> <span class='title'> " + title + "</span>, <span class='genre'> " + genre + "</span> </div>";
+            }
+
+            document.getElementById("xml-container").innerHTML = htmlStr;
+        }
+
+        loadXMLDoc("bookstore.xml")
+    </script>
+</body>
+</html>

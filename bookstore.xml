@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bookstore>
+    <book>
+        <title>The Great Gatsby</title>
+        <author>
+            <first_name>F. Scott</first_name>
+            <last_name>Fitzgerald</last_name>
+        </author>
+        <genre>Drama</genre>
+        <year_published>1925</year_published>
+        <price currency="USD">12.99</price>
+        <isbn>978-0-7432-7356-5</isbn>
+    </book>
+    <book>
+        <title>To Kill a Mockingbird</title>
+        <author>
+            <first_name>Harper</first_name>
+            <last_name>Lee</last_name>
+        </author>
+        <genre>Classic</genre>
+        <year_published>1960</year_published>
+        <price currency="USD">10.99</price>
+        <isbn>978-0-06-112008-4</isbn>
+    </book>
+    <book>
+        <title>1984</title>
+        <author>
+            <first_name>George</first_name>
+            <last_name>Orwell</last_name>
+        </author>
+        <genre>Dystopian</genre>
+        <year_published>1949</year_published>
+        <price currency="USD">9.99</price>
+        <isbn>978-0-452-28423-4</isbn>
+    </book>
+    <book>
+        <title>The Catcher in the Rye</title>
+        <author>
+            <first_name>J.D.</first_name>
+            <last_name>Salinger</last_name>
+        </author>
+        <genre>Coming-of-age</genre>
+        <year_published>1951</year_published>
+        <price currency="USD">11.99</price>
+        <isbn>978-0-316-76948-0</isbn>
+    </book>
+    <book>
+        <title>Pride and Prejudice</title>
+        <author>
+            <first_name>Jane</first_name>
+            <last_name>Austen</last_name>
+        </author>
+        <genre>Romance</genre>
+        <year_published>1813</year_published>
+        <price currency="USD">8.99</price>
+        <isbn>978-0-19-953556-9</isbn>
+    </book>
+    <book>
+        <title>The Hobbit</title>
+        <author>
+            <first_name>J.R.R.</first_name>
+            <last_name>Tolkien</last_name>
+        </author>
+        <genre>Fantasy</genre>
+        <year_published>1937</year_published>
+        <price currency="USD">14.99</price>
+        <isbn>978-0-618-51752-0</isbn>
+    </book>
+    <book>
+        <title>Harry Potter and the Sorcerer's Stone</title>
+        <author>
+            <first_name>J.K.</first_name>
+            <last_name>Rowling</last_name>
+        </author>
+        <genre>Fantasy</genre>
+        <year_published>1997</year_published>
+        <price currency="USD">15.99</price>
+        <isbn>978-0-7475-3269-6</isbn>
+    </book>
+    <book>
+        <title>Crime and Punishment</title>
+        <author>
+            <first_name>Fyodor</first_name>
+            <last_name>Dostoevsky</last_name>
+        </author>
+        <genre>Psychological Fiction</genre>
+        <year_published>1866</year_published>
+        <price currency="USD">13.99</price>
+        <isbn>978-0-486-26868-0</isbn>
+    </book>
+    <book>
+        <title>Lord of the Flies</title>
+        <author>
+            <first_name>William</first_name>
+            <last_name>Golding</last_name>
+        </author>
+        <genre>Allegorical</genre>
+        <year_published>1954</year_published>
+        <price currency="USD">10.99</price>
+        <isbn>978-0-571-05686-0</isbn>
+    </book>
+    <book>
+        <title>Frankenstein</title>
+        <author>
+            <first_name>Mary</first_name>
+            <last_name>Shelley</last_name>
+        </author>
+        <genre>Horror</genre>
+        <year_published>1818</year_published>
+        <price currency="USD">9.99</price>
+        <isbn>978-0-486-28227-8</isbn>
+    </book>
+</bookstore>
